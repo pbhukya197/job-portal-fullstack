@@ -39,6 +39,48 @@ The platform provides secure authentication, job management, application trackin
 
 ---
 
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+<p align="center">
+  <img src="./screenshots/home.png" width="100%" alt="Home Page"/>
+</p>
+
+---
+
+## 🔐 Login Page
+
+<p align="center">
+  <img src="./screenshots/login.png" width="100%" alt="Login Page"/>
+</p>
+
+---
+
+## 📝 Register Page
+
+<p align="center">
+  <img src="./screenshots/register.png" width="100%" alt="Register Page"/>
+</p>
+
+---
+
+## 📝 Contact Page
+
+<p align="center">
+  <img src="./screenshots/contact.png" width="100%" alt="Register Page"/>
+</p>
+
+---
+
+## 📝 Grafana Page
+
+<p align="center">
+  <img src="./screenshots/grafana.png" width="100%" alt="Register Page"/>
+</p>
+
+---
+
 # ✨ Features
 
 ## 🔐 Authentication & Security
