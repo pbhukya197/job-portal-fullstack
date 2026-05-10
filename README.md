@@ -44,7 +44,7 @@ The platform provides secure authentication, job management, application trackin
 ## 🏠 Home Page
 
 <p align="center">
-  <img src="./screenshots/home.png" width="100%" alt="Home Page"/>
+  <img src="./images/home.png" width="100%" alt="Home Page"/>
 </p>
 
 ---
@@ -52,7 +52,7 @@ The platform provides secure authentication, job management, application trackin
 ## 🔐 Login Page
 
 <p align="center">
-  <img src="./screenshots/login.png" width="100%" alt="Login Page"/>
+  <img src="./images/login.png" width="100%" alt="Login Page"/>
 </p>
 
 ---
@@ -60,7 +60,7 @@ The platform provides secure authentication, job management, application trackin
 ## 📝 Register Page
 
 <p align="center">
-  <img src="./screenshots/register.png" width="100%" alt="Register Page"/>
+  <img src="./images/register.png" width="100%" alt="Register Page"/>
 </p>
 
 ---
@@ -68,7 +68,7 @@ The platform provides secure authentication, job management, application trackin
 ## 📝 Contact Page
 
 <p align="center">
-  <img src="./screenshots/contact.png" width="100%" alt="Register Page"/>
+  <img src="./images/contact.png" width="100%" alt="Register Page"/>
 </p>
 
 ---
@@ -76,7 +76,7 @@ The platform provides secure authentication, job management, application trackin
 ## 📝 Grafana Page
 
 <p align="center">
-  <img src="./screenshots/grafana.png" width="100%" alt="Register Page"/>
+  <img src="./images/grafana.png" width="100%" alt="Register Page"/>
 </p>
 
 ---
