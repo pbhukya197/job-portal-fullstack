@@ -1,0 +1,48 @@
+# Docker Compose Configuration for JobPortal Application
+
+## STEP 1: Services Definition
+services:
+  dbservice:
+    # Name of the service - this is how it's referenced in the application
+
+    ## STEP 2: Docker Image
+    image: mysql:latest
+    # Uses the latest version of MySQL image from Docker Hub
+    # This will automatically pull the most recent MySQL image available
+
+    ## STEP 3: Container Configuration
+    container_name: jobportaldb
+    # Gives the running container a specific name
+    # You'll see "jobportaldb" when you run: docker ps
+
+    ## STEP 4: Port Mapping
+    ports:
+      - "3308:3306"
+    # Maps port 3308 on your host machine to port 3306 inside the container
+    # Format: "HOST_PORT:CONTAINER_PORT"
+    # You can connect to MySQL using: localhost:3308
+    # (Standard MySQL port 3306 is used inside the container)
+
+    ## STEP 5: Environment Variables
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      # Sets the root password for MySQL to "root"
+      
+      MYSQL_DATABASE: jobportal
+      # Automatically creates a database named "jobportal"
+
+    ## STEP 6: Data Persistence
+    volumes:
+      - "G:/IdeaProjects/Udemy-SpringBoot/section6/jobportal-data:/var/lib/mysql"
+    # Maps a local folder to the container's data folder
+    # Format: "LOCAL_PATH:CONTAINER_PATH"
+    # This ensures your database data persists even if the container stops
+    # Data is stored at: G:/IdeaProjects/Udemy-SpringBoot/section6/jobportal-data
+
+
+  grafana-lgtm:
+    image: 'grafana/otel-lgtm:latest'
+    ports:
+      - '3000:3000'
+      - '4317:4317'
+      - '4318:4318'
